@@ -2,30 +2,26 @@
 
 ## Project Overview
 
-An end-to-end data analytics project focused on understanding student engagement, assessment performance, and course outcomes using the **Open University Learning Analytics Dataset (OULAD)**.
+An end-to-end data analytics project focused on understanding student engagement, assessment performance, and course completion outcomes using the Open University Learning Analytics Dataset (OULAD).
 
-The project analyzes learning activity, assessment performance, course-level outcomes, and student engagement patterns to identify insights that can support learner engagement initiatives and course management decisions.
-
----
+The project investigates how learning activity and assessment performance vary across courses and student outcomes, with the goal of identifying meaningful patterns that can support better learner engagement and course management.
 
 ## Business Questions
 
-- What is the overall pass and withdrawal rate?
+- What is the overall course pass and withdrawal rate?
 - How does student engagement vary across courses?
-- Is higher learning engagement associated with more favorable student outcomes?
+- Is higher learning engagement associated with better student outcomes?
 - How do assessment scores vary across assessment types?
-- Which courses have higher or lower pass rates?
+- Which courses show higher or lower pass rates?
 - How are student outcomes distributed across the dataset?
-
----
 
 ## Dataset
 
 **Open University Learning Analytics Dataset (OULAD)**
 
-The OULAD dataset contains anonymized information about students, courses, assessments, registrations, and Virtual Learning Environment (VLE) interactions.
+The dataset contains anonymized information about students, courses, assessments, registrations, and virtual learning environment (VLE) interactions.
 
-### Key Tables
+Key tables used include:
 
 - `studentInfo`
 - `studentRegistration`
@@ -35,20 +31,16 @@ The OULAD dataset contains anonymized information about students, courses, asses
 - `studentVLE`
 - `vle`
 
----
-
 ## Tools & Technologies
 
-- **Microsoft Excel** — Data cleaning and preparation
+- **Excel** — Data cleaning and preparation
 - **SQL** — Data querying and analytical analysis
-- **Power BI** — Data modeling, interactive dashboard, and visualization
+- **Power BI** — Interactive dashboard and visualization
 - **ChatGPT** — AI-assisted analytical support and hypothesis generation
-
----
 
 ## Data Preparation
 
-The dataset was reviewed and prepared before analysis.
+The data was reviewed and cleaned before analysis.
 
 Key preparation activities included:
 
@@ -57,11 +49,9 @@ Key preparation activities included:
 - Distinguishing missing registration information from actual unregistration
 - Creating analytical keys to connect student-course-presentation records
 - Preparing student engagement summaries from VLE activity data
-- Establishing relationships between student, course, assessment, and engagement data
+- Establishing relationships between course, assessment, engagement, and student information
 
-Raw data was preserved separately from the cleaned and analytical data.
-
----
+Raw data was preserved separately from the cleaned/analytical data.
 
 ## Project Workflow
 
@@ -79,9 +69,10 @@ Power BI Data Modeling
 Interactive Dashboard
       ↓
 Business Insights & Recommendations
+```
 
 
-##Dashboard
+## Dashboard
 
 The Power BI dashboard provides an overview of student engagement, assessment performance, course-level pass rates, and enrollment outcomes.
 
