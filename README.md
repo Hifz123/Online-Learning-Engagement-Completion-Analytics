@@ -100,7 +100,7 @@ A significant proportion of enrollment records result in withdrawal, highlightin
 Course-level engagement averages are relatively similar across modules, while engagement differences between student outcome groups are more pronounced.
 Business Recommendations
 
-Based on the analysis:
+## Based on the analysis:
 
 Investigate engagement patterns among students associated with withdrawal outcomes.
 Encourage consistent learning activity throughout the course rather than relying primarily on last-minute participation.
@@ -110,7 +110,7 @@ Monitor early engagement behavior as a descriptive indicator for student-support
 
 Note: The analysis identifies associations and patterns in the data. It does not predict individual student outcomes using machine learning.
 
-AI-Assisted Analytics
+## AI-Assisted Analytics
 
 ChatGPT was used as an analytical assistant to help:
 
@@ -123,7 +123,7 @@ AI was used to support the analytical process, not to generate the underlying me
 
 All numerical results and dashboard metrics were calculated from the underlying dataset using Excel, SQL, and Power BI.
 
-Project Outcome
+## Project Outcome
 
 This project demonstrates practical experience in:
 
