@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-An end-to-end data analytics project focused on understanding student engagement, assessment performance, and course completion outcomes using the Open University Learning Analytics Dataset (OULAD).
+An end-to-end data analytics project focused on understanding student engagement, assessment performance, and course outcomes using the Open University Learning Analytics Dataset (OULAD).
 
 The project investigates how learning activity and assessment performance vary across courses and student outcomes, with the goal of identifying meaningful patterns that can support better learner engagement and course management.
 
@@ -35,7 +35,7 @@ Key tables used include:
 
 - **Excel** — Data cleaning and preparation
 - **SQL** — Data querying and analytical analysis
-- **Power BI** — Interactive dashboard and visualization
+- **Power BI** — Data modeling, interactive dashboard, and visualization
 - **ChatGPT** — AI-assisted analytical support and hypothesis generation
 
 ## Data Preparation
@@ -51,7 +51,7 @@ Key preparation activities included:
 - Preparing student engagement summaries from VLE activity data
 - Establishing relationships between course, assessment, engagement, and student information
 
-Raw data was preserved separately from the cleaned/analytical data.
+Raw data was preserved separately from the cleaned and analytical data.
 
 ## Project Workflow
 
@@ -71,8 +71,7 @@ Interactive Dashboard
 Business Insights & Recommendations
 ```
 
-
-## Dashboard![Power BI Dashboard](Dashboard_Overview.png)
+## Dashboard
 
 The Power BI dashboard provides an overview of student engagement, assessment performance, course-level pass rates, and enrollment outcomes.
 
