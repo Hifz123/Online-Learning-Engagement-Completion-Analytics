@@ -28,6 +28,10 @@ The analysis focuses on descriptive analytics and identifies associations in the
 
 The OULAD dataset contains anonymized information about students, courses, assessments, registrations, and interactions with a virtual learning environment (VLE).
 
+### Dataset Source
+
+- [Open University Learning Analytics Dataset (OULAD)](https://research.stem.open.ac.uk/ouanalyse/dataset/)
+
 The project worked with the following datasets:
 
 - `studentInfo`
