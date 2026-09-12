@@ -30,7 +30,8 @@ The OULAD dataset contains anonymized information about students, courses, asses
 
 ### Dataset Source
 
-- [Open University Learning Analytics Dataset (OULAD)](https://research.stem.open.ac.uk/ouanalyse/dataset/)
+- **Original Dataset:** [Open University Learning Analytics Dataset (OULAD)](https://research.stem.open.ac.uk/ouanalyse/dataset/)
+- **Downloadable Dataset:** [UCI Machine Learning Repository – OULAD](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset)
 
 The project worked with the following datasets:
 
