@@ -85,31 +85,39 @@ GROUP BY code_module
 ORDER BY withdrawal_rate DESC;
 
 
--- Query 7: High vs Low Engagement Comparison
+-- Query 7: High vs Low Engagement and Pass Rate
+
 WITH engagement_groups AS (
     SELECT
-        se.id_student,
-        se.total_clicks,
+        code_module,
+        code_presentation,
+        id_student,
+        total_clicks,
         CASE
-            WHEN se.total_clicks >= (
+            WHEN total_clicks >= (
                 SELECT AVG(total_clicks)
                 FROM student_engagement
             )
             THEN 'High Engagement'
             ELSE 'Low Engagement'
         END AS engagement_group
-    FROM student_engagement se
+    FROM student_engagement
 )
+
 SELECT
     eg.engagement_group,
-    COUNT(*) AS student_records,
+    COUNT(*) AS enrollment_records,
     ROUND(AVG(eg.total_clicks), 2) AS average_clicks,
     ROUND(
-        100.0 * COUNT(CASE WHEN si.final_result = 'Pass' THEN 1 END) / COUNT(*),
+        100.0 * COUNT(
+            CASE WHEN si.final_result = 'Pass' THEN 1 END
+        ) / COUNT(*),
         2
     ) AS pass_rate
 FROM engagement_groups eg
 INNER JOIN student_info si
-    ON eg.id_student = si.id_student
+    ON eg.code_module = si.code_module
+    AND eg.code_presentation = si.code_presentation
+    AND eg.id_student = si.id_student
 GROUP BY eg.engagement_group
 ORDER BY pass_rate DESC;
