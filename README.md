@@ -72,7 +72,7 @@ Business Insights & Recommendations
 ```
 
 
-## Dashboard
+## Dashboard![Power BI Dashboard](Dashboard_Overview.png)
 
 The Power BI dashboard provides an overview of student engagement, assessment performance, course-level pass rates, and enrollment outcomes.
 
